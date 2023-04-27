@@ -1,0 +1,7 @@
+An interpreter is a computer program that directly executes source code written in a high-level programming language, without the need for compilation.
+
+When an interpreter executes a program, it reads and interprets each line of code and executes the corresponding instructions immediately. This is in contrast to a [[compiler]], which generates machine code or [[bytecode]] from the source code and then executes the resulting code. Interpreted code is typically slower than compiled code because the interpretation process occurs each time the code is executed.
+
+One advantage of using an interpreter is that it allows for faster development and testing of programs because there is no need to compile the code before executing it. Additionally, interpreted languages tend to be more flexible than compiled languages because they can be modified and executed on the fly.
+
+Some popular interpreted programming languages include Python, Ruby, JavaScript, and PHP. Interpreters for these languages are typically available as standalone programs or as part of a web server or [[IDE]]. In addition, many programming languages support both interpretation and compilation, giving developers the flexibility to choose the best approach for their specific needs.

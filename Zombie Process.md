@@ -1,0 +1,7 @@
+A zombie process is a type of [[process]] that has completed its execution, but its exit status has not yet been collected by its parent process. In other words, a zombie process is a process that has finished running, but is still listed in the process table because the parent process has not yet called the `wait()` [[system call]] to retrieve its exit status.
+
+When a [[process]] finishes its execution, the [[kernel]] sends a notification to the parent process to indicate that the child process has terminated. The parent process should then call `wait()` to retrieve the exit status of the child process and release any system resources that were allocated to it. If the parent process fails to call `wait()`, the child process will remain in the zombie state, which can cause problems for the system over time.
+
+Zombie processes do not consume CPU time or memory, but they can consume valuable system resources such as process table entries. If too many zombie processes accumulate, the system may run out of process table entries, which can cause new [[process]]es to fail to start.
+
+To prevent zombie processes, it is important for the parent process to call `wait()` after the child process completes its execution to retrieve its exit status and free up any system resources that were allocated to it.

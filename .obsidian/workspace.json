@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "88c69f0c3b3cd926",
+        "id": "a615cd20ab8e3514",
         "type": "tabs",
         "children": [
           {
-            "id": "53ef7c57398de34d",
+            "id": "026dd1e7c2be2611",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a7afea392dbf177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS IAM User Creation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AWS IAM User Creation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AWS IAM User Creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AWS IAM User Creation.md"
+              }
             }
           }
         ]
@@ -139,13 +160,35 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "53ef7c57398de34d",
+  "active": "4a7afea392dbf177",
   "lastOpenFiles": [
-    "202304052054.md",
-    "blockchain.md",
-    "solidity.md",
-    "202304052052.md",
-    "Untitled.md",
-    "202304052051.md"
+    "AWS IAM User Creation.md",
+    "Process.md",
+    "Zombie Process.md",
+    "Zombie.md",
+    "kill() System Call.md",
+    "Interrupt.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "The C Programming Language.md",
+    "Kernel.md",
+    "Bytecode.md",
+    "Assembly.md",
+    "User Mode and Kernel Mode.md",
+    "System Interrupt Vector.md",
+    "System Call.md",
+    "Process Forking.md",
+    "Virtual Machine.md",
+    "Solidity.md",
+    "Opcode.md",
+    "Memory Management Unit (MMU).md",
+    "Interpreter.md",
+    "Inter-Process Communication (IPC).md",
+    "IDE.md",
+    "Compiler.md",
+    "Blockchain.md",
+    "inter-process communication (IPC).md",
+    "202304201537.md",
+    "202304052054.md"
   ]
 }

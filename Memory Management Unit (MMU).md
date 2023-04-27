@@ -1,0 +1,9 @@
+A Memory Management Unit (MMU) is a hardware component in a computer system that manages the translation between virtual memory addresses used by programs and the physical memory addresses used by the system's memory hardware.
+
+The MMU is responsible for mapping virtual addresses used by programs to physical addresses used by the memory hardware. It does this by maintaining a page table, which is a data structure that maps virtual memory addresses to physical memory addresses. When a program references a virtual memory address, the MMU uses the page table to translate the virtual address to a physical address, which is then used to access the corresponding memory location.
+
+The MMU also provides memory protection by enforcing access permissions specified in the page table. This prevents programs from accessing memory locations they are not authorized to access, which can help to improve system stability and security.
+
+The MMU is a key component of modern operating systems, which use virtual memory to allow multiple programs to run simultaneously in their own isolated memory spaces. The MMU allows each program to use its own virtual memory space without the need for physical memory to be allocated in a contiguous block. This allows the operating system to make efficient use of physical memory and to provide memory protection and security to programs.
+
+Overall, the MMU plays an important role in managing memory in a computer system, translating virtual memory addresses to physical memory addresses, and enforcing memory protection and access permissions specified in the page table.

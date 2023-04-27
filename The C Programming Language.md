@@ -1,0 +1,5 @@
+C is a high-level, general-purpose programming language that was originally developed by Dennis Ritchie at Bell Labs in the early 1970s. It was designed to be a system programming language for the Unix operating system, but it has since been used for a wide range of applications.
+
+C is known for its efficiency, flexibility, and portability. It provides low-level access to the computer's memory and hardware, making it well-suited for systems programming and embedded systems. At the same time, it offers high-level features such as data structures, functions, and pointers, which make it useful for application programming.
+
+C has been a widely-used language for several decades and has influenced many other programming languages, including C++, Java, Python, and others. It is still popular today and remains an important language for system and application development.

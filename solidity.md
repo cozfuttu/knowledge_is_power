@@ -1,1 +1,1 @@
-yazılım dili
+A software language on the [[Blockchain]].

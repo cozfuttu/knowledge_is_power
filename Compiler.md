@@ -1,0 +1,7 @@
+A compiler is a computer program that translates source code written in a high-level programming language into machine code or [[bytecode]] that can be executed by a computer.
+
+The process of compilation involves several stages. The first stage is lexical analysis, where the source code is analyzed to identify the individual tokens, such as keywords, identifiers, and operators. The next stage is syntax analysis, where the compiler checks the syntax of the source code to ensure that it conforms to the rules of the programming language. After this, the compiler generates intermediate code, which is then optimized for performance. Finally, the compiler produces the machine code or [[bytecode]], which can be executed by the computer.
+
+One of the main advantages of using a compiler is that it can generate code that is more efficient than code written in a high-level programming language. This is because the compiler can optimize the code based on the specific hardware and architecture of the computer on which it will be executed. Additionally, compiled code can often be executed faster than interpreted code because the compilation process occurs only once, whereas interpreted code must be translated into machine code each time it is executed.
+
+Some popular compilers include GCC (GNU Compiler Collection), which is a compiler for several programming languages, including C, C++, and Fortran, and the Java compiler, which generates [[bytecode]] that can be executed by the Java [[Virtual Machine]] (JVM).

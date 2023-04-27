@@ -1,0 +1,9 @@
+User mode and [[kernel]] mode are two different modes in which a computer's operating system operates.
+
+User mode is the mode in which normal applications and user-level [[process]]es run. In user mode, the operating system provides a restricted set of system resources and services that the applications can access. User mode programs cannot directly access system hardware or perform privileged operations such as modifying the [[memory management unit (MMU)]] or accessing the [[system interrupt vector]].
+
+[[Kernel]] mode, also known as supervisor mode or system mode, is a privileged mode in which the operating system's [[kernel]] runs. In [[kernel]] mode, the operating system has full access to all system resources, including hardware and privileged system services. [[Kernel]] mode programs can access and manipulate any part of the system and perform privileged operations such as modifying the MMU or accessing the [[system interrupt vector]].
+
+When a user-level program needs to perform a privileged operation, such as accessing a hardware device or allocating memory, it must make a [[system call]] to the [[kernel]]. The [[kernel]] then performs the requested operation on behalf of the user-level program in [[kernel]] mode and returns the result to the program in user mode.
+
+The distinction between user mode and [[kernel]] mode is an important one for the security and stability of an operating system. By restricting access to system resources in user mode, the operating system can prevent user-level programs from accessing or modifying critical system components, which can improve system security and stability.
