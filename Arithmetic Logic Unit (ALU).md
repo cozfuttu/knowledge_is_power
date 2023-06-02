@@ -1,0 +1,7 @@
+An Arithmetic Logic Unit (ALU) is a fundamental component of a computer's central processing unit (CPU) responsible for performing arithmetic and logic operations. The ALU processes binary data and executes basic operations, such as addition, subtraction, multiplication, and division, as well as bitwise logic operations like AND, OR, XOR, and NOT.
+
+During the execution stage of the [[fetch-execute cycle]], the CPU uses the ALU to perform the specified operation on the operands provided. The operands can come from registers or memory, depending on the instruction being executed. Once the ALU has completed the operation, it stores the result in the designated register or memory location.
+
+The ALU also plays a role in updating specific condition codes or flags in the CPU, such as the zero flag, sign flag, or carry flag. These flags are stored in a special-purpose register called the status register or flag register, which can be used by subsequent instructions to make decisions based on the outcome of previous operations (e.g., conditional branches or jumps).
+
+In summary, the ALU is a critical component of a CPU that performs arithmetic and logic operations, enabling the computer to process data and execute a wide range of tasks and algorithms.

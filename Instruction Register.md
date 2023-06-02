@@ -1,0 +1,7 @@
+The instruction register (IR) is a special-purpose register within the central processing unit (CPU) of a computer that temporarily holds the instruction that is currently being executed. The instruction register plays a crucial role in the [[fetch-execute cycle]], as it stores the fetched instruction before the CPU decodes and executes it.
+
+During the fetch stage of the cycle, the CPU retrieves the instruction stored at the memory address pointed to by the [[program counter]] (PC) and places it in the instruction register. In the subsequent decode stage, the CPU examines the contents of the instruction register to determine the operation to be performed and identify any operands involved.
+
+The instruction register is essential for the CPU's operation, as it provides a temporary storage location for the instruction being processed. By holding the instruction in a dedicated register, the CPU can efficiently decode and execute the instruction without needing to fetch it from memory repeatedly, which would be slower and less efficient.
+
+Overall, the instruction register is a key component of a CPU that enables the efficient processing of instructions and helps maintain the smooth operation of the [[fetch-execute cycle]].

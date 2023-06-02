@@ -4,30 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a615cd20ab8e3514",
+        "id": "e03e2326958ce24e",
         "type": "tabs",
         "children": [
           {
-            "id": "026dd1e7c2be2611",
+            "id": "9a21ab50f4fd3bf6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Process.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "4a7afea392dbf177",
+            "id": "f72ca725aa4fcbd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "AWS IAM User Creation.md",
-                "mode": "source",
-                "source": false
+                "file": "Gartner_Hype_Cycle.png"
               }
             }
           }
@@ -77,6 +71,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "185e609a0886d49c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS IAM User Creation.md",
+                "file": "Gartner_Hype_Cycle.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS IAM User Creation.md",
+                "file": "Gartner_Hype_Cycle.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS IAM User Creation.md"
+                "file": "Gartner_Hype_Cycle.png"
               }
             }
           }
@@ -160,13 +162,30 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "4a7afea392dbf177",
+  "active": "f72ca725aa4fcbd4",
   "lastOpenFiles": [
-    "AWS IAM User Creation.md",
     "Process.md",
+    "Gartner_Hype_Cycle.png",
+    "Gartner_Hype_Cycle.svg.png",
+    "AWS IAM User Creation.md",
+    "Thread.md",
+    "Process Forking.md",
+    "Opcode.md",
+    "Fetch-Execute Cycle.md",
+    "Computer Architecture.md",
+    "Screenshot_3.png",
+    "IDE.md",
+    "cat.png",
+    "Compiler.md",
+    "Von Neumann Architecture.md",
+    "Arithmetic Logic Unit (ALU).md",
+    "kill() System Call.md",
+    "How Does CPU Decode Instructions.md",
+    "Instruction Register.md",
+    "Program Counter.md",
+    "Process vs Thread.md",
     "Zombie Process.md",
     "Zombie.md",
-    "kill() System Call.md",
     "Interrupt.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
@@ -175,20 +194,6 @@
     "Bytecode.md",
     "Assembly.md",
     "User Mode and Kernel Mode.md",
-    "System Interrupt Vector.md",
-    "System Call.md",
-    "Process Forking.md",
-    "Virtual Machine.md",
-    "Solidity.md",
-    "Opcode.md",
-    "Memory Management Unit (MMU).md",
-    "Interpreter.md",
-    "Inter-Process Communication (IPC).md",
-    "IDE.md",
-    "Compiler.md",
-    "Blockchain.md",
-    "inter-process communication (IPC).md",
-    "202304201537.md",
-    "202304052054.md"
+    "System Interrupt Vector.md"
   ]
 }

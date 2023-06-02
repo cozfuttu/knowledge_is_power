@@ -1,0 +1,7 @@
+The program counter (PC), sometimes referred to as the instruction pointer, is a register within the central processing unit (CPU) of a computer that stores the memory address of the next instruction to be fetched and executed. The program counter plays a vital role in the [[fetch-execute cycle]], as it helps the CPU maintain the sequence of instructions being executed.
+
+During the fetch stage of the cycle, the CPU retrieves the instruction stored at the memory address pointed to by the program counter. Once the instruction has been fetched, the program counter is typically incremented to point to the next instruction in memory.
+
+In most cases, the program counter increments sequentially, allowing the CPU to execute instructions in the order they appear in memory. However, certain instructions, such as jumps, branches, or subroutine calls, can modify the program counter's value directly, enabling the CPU to execute instructions from different memory locations or change the flow of the program.
+
+By keeping track of the memory address of the next instruction to be executed, the program counter ensures that the CPU can carry out the instructions in the correct sequence and maintain the flow of program execution.
