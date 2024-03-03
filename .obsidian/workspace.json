@@ -1,0 +1,330 @@
+{
+  "main": {
+    "id": "ffe70911749aab6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e03e2326958ce24e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a21ab50f4fd3bf6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f72ca725aa4fcbd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Message Authentication Code (MAC).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "842141b8db7c5d04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Message Authentication Code (MAC).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7a747fb021f417f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hash Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a12185893ca3cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public Key (Asymmetric) Cryptography.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "754dc4f8802a52bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Elliptic Curve Cryptography (ECC).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41c4b7c9ba0be031",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3eb63649898859e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS IAM User Creation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d09627760c8b351d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compiler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5850e65c0de22478",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "461850075a5ca5ce",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Screenshot_3.png"
+              }
+            }
+          },
+          {
+            "id": "31f9e73ab165d54c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Process Forking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03869cb3e975caf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS IAM User Creation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 12
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b85fcb364563de6",
+    "type": "split",
+    "children": [
+      {
+        "id": "4dd666832205d41d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c5770b70aa65e2b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be1ca348c5b4c14a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ea675dfa161ca92",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "185e609a0886d49c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abf6507cb0277cb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "20f0395a602ba9e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8283d938d1b13da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AWS IAM User Creation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "23e76c715fd82d45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AWS IAM User Creation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd55e6dffe85d0e5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e012fc351e53dbcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS IAM User Creation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "03869cb3e975caf1",
+  "lastOpenFiles": [
+    "Bytecode.md",
+    "AWS IAM User Creation.md",
+    "Job Advertisement.md",
+    "Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
+    "Computer Architecture.md",
+    "Cryptography.md",
+    "Elliptic Curve Cryptography (ECC).md",
+    "Fetch-Execute Cycle.md",
+    "Screenshot_3.png",
+    "Process vs Thread.md",
+    "Program Counter.md",
+    "Public Key (Asymmetric) Cryptography.md",
+    "RSA Cryptography.md",
+    "Linker.md",
+    "Instruction Register.md",
+    "Arithmetic Logic Unit (ALU).md",
+    "Compiler.md",
+    "Blockchain.md",
+    "Assembly.md",
+    "Assembler.md",
+    "Virtual Machine.md",
+    "Process.md",
+    "Thread.md",
+    "IDE.md",
+    "Translator.md",
+    "Solidity Learning Sources.md",
+    "Hash Function.md",
+    "images/Message_Authentication_Code_(MAC).png",
+    "images/Gartner_Hype_Cycle.png",
+    "images",
+    "Gartner_Hype_Cycle.svg.png",
+    "cat.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
