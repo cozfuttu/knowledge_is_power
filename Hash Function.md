@@ -1,6 +1,6 @@
 A hash function is a function that is used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes.
 
-Hash functions have many uses in computing. They are commonly used in hash tables, a fundamental data structure in computer science, to quickly locate a data record given its search key. Hash functions are also used in [[cryptography]] for purposes such as data integrity verification and password storage.
+Hash functions have many uses in computing. They are commonly used in hash tables, a fundamental data structure in computer science, to quickly locate a data record given its search key. Hash functions are also used in [[Cryptography]] for purposes such as data integrity verification and password storage.
 
 Here are some important properties of a hash function:
 

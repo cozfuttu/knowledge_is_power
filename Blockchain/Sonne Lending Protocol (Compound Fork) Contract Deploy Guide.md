@@ -6,7 +6,7 @@ Example start tx (comptroller deploy optimism): 0xa334c2bf31247ba6fd45715eca52f4
 4. RUN \_become(address unitroller) FUNCTION IN comptroller contract WITH PARAMETERS: unitroller address
 5. RUN \_setCloseFactor(uint256 newCloseFactorMantissa) FUNCTION IN comptroller contract THROUGH unitroller contract address WITH PARAMETERS: 500000000000000000
 6. DEPLOY JumpRateModelV4 contract WITH CONSTRUCTOR PARAMETERS: 15552000, 0, 50000000000000000, 1365000000000000000, 800000000000000000, owner address, JumpRateModelV4
-7. DEPLOY cErc20Immutable contracts (all of them) WITH CONSTRUCTOR PARAMETERS: underlying address, comptroller address, interestRateModel address, 200000000000000000000000000, pythPriceFeedId, name, symbol, 8, admin address
+7. DEPLOY cErc20Immutable contracts (all of them) WITH CONSTRUCTOR PARAMETERS: underlying address, unitroller address, interestRateModel address, 200000000000000000000000000, pythPriceFeedId, name, symbol, 8, admin address
 8. FOR EACH cErc20Immutable contract, RUN \_setReserveFactor(uint256 newReserveFactorMantissa) FUNCTION IN cErc20Immutable contract WITH PARAMETERS: 150000000000000000 AND RUN \_supportMarket(address cToken) FUNCTION IN comptroller contract THROUGH unitroller contract address WITH PARAMETERS: cErc20Immutable contract address
 9. DEPLOY price oracle contract
 10. RUN \_setPriceOracle(address newOracle) FUNCTION IN comptroller contract THROUGH unitroller contract address WITH PARAMETERS: price oracle contract address
