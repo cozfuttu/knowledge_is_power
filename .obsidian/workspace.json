@@ -4,85 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a615cd20ab8e3514",
+        "id": "61af1b0ff4a0d13a",
         "type": "tabs",
         "children": [
           {
-            "id": "026dd1e7c2be2611",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "1655f487aeb35b71",
+            "id": "da95e9acf2d0dea7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
+                "file": "Blockchain/Blockchain.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "aae877206cfa2641",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/IBC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b018e2d780f33a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/Cosmos Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e1716903b47568a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/IBC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69aa6074514113c4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.7"
-              }
-            }
-          },
-          {
-            "id": "4a7afea392dbf177",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +66,7 @@
             }
           },
           {
-            "id": "5bb7ec122d4ea207",
+            "id": "185e609a0886d49c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -156,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain/IBC.md",
+                "file": "Blockchain/Blockchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain/IBC.md",
+                "file": "Blockchain/Blockchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain/IBC.md"
+                "file": "Blockchain/Blockchain.md"
               }
             }
           }
@@ -218,40 +155,45 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "7e1716903b47568a",
+  "active": "da95e9acf2d0dea7",
   "lastOpenFiles": [
-    "Pasted image 20240627204148.png",
+    "Blockchain/Double Spending Problem.md",
+    "Blockchain/Blockchain.md",
+    "Cryptography.md",
+    "Pasted image 20240721205201.png",
+    "gif1.gif",
+    "Pasted image 20240721204815.png",
     "Blockchain/DeFi.md",
     "Blockchain/IBC.md",
-    "Blockchain/Validator.md",
-    "Blockchain/Cosmos Network.md",
-    "Blockchain/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
-    "Blockchain/Blockchain.md",
-    "Blockchain/Consensus.md",
-    "Blockchain/Solidity Learning Sources.md",
     "Blockchain/solidity.md",
-    "RSA Cryptography.md",
-    "Cryptography.md",
+    "Blockchain/Solidity Learning Sources.md",
+    "Message Authentication Code (MAC).md",
+    "Blockchain/Consensus.md",
+    "Blockchain/Cosmos Network.md",
+    "Process Forking.md",
+    "Blockchain/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
+    "Pasted image 20240627204148.png",
+    "Blockchain/Validator.md",
     "Blockchain",
-    "Compiler.md",
+    "AWS IAM User Creation.md",
+    "Bytecode.md",
+    "Job Advertisement.md",
+    "Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
+    "Computer Architecture.md",
+    "Elliptic Curve Cryptography (ECC).md",
+    "Fetch-Execute Cycle.md",
+    "Screenshot_3.png",
+    "Process vs Thread.md",
+    "Program Counter.md",
+    "Public Key (Asymmetric) Cryptography.md",
+    "RSA Cryptography.md",
+    "Linker.md",
+    "Instruction Register.md",
     "images/Message_Authentication_Code_(MAC).png",
     "images/Gartner_Hype_Cycle.png",
     "images",
-    "Translator.md",
-    "Public Key (Asymmetric) Cryptography.md",
-    "Message Authentication Code (MAC).md",
-    "Linker.md",
-    "Hash Function.md",
-    "Elliptic Curve Cryptography (ECC).md",
-    "Assembler.md",
-    "Fetch-Execute Cycle.md",
-    "Arithmetic Logic Unit (ALU).md",
-    "Computer Architecture.md",
-    "Bytecode.md",
-    "AWS IAM User Creation.md",
-    "Assembly.md",
-    "Screenshot_3.png",
-    "Gartner_Hype_Cycle.png",
+    "Gartner_Hype_Cycle.svg.png",
+    "cat.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
