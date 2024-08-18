@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain/Blockchain.md",
+                "file": "Elliptic Curve Cryptography (ECC).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain/Blockchain.md",
+                "file": "Elliptic Curve Cryptography (ECC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain/Blockchain.md",
+                "file": "Elliptic Curve Cryptography (ECC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain/Blockchain.md"
+                "file": "Elliptic Curve Cryptography (ECC).md"
               }
             }
           }
@@ -157,23 +157,30 @@
   },
   "active": "da95e9acf2d0dea7",
   "lastOpenFiles": [
+    "Distributed Computing.md",
+    "Blockchain/Mempool.md",
+    "Blockchain/Solidity.md",
+    "Blockchain/IBC.md",
     "Blockchain/Double Spending Problem.md",
+    "Blockchain/Byzantine Generals Problem.md",
+    "Blockchain/Consensus.md",
+    "Blockchain/Account Abstraction (EIP-4337).md",
+    "Blockchain/Validator.md",
+    "Blockchain/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
+    "Blockchain/Solidity Learning Sources.md",
     "Blockchain/Blockchain.md",
+    "Pasted image 20240815162439.png",
+    "Pasted image 20240815162320.png",
+    "Pasted image 20240815162141.png",
     "Cryptography.md",
     "Pasted image 20240721205201.png",
     "gif1.gif",
     "Pasted image 20240721204815.png",
     "Blockchain/DeFi.md",
-    "Blockchain/IBC.md",
-    "Blockchain/solidity.md",
-    "Blockchain/Solidity Learning Sources.md",
     "Message Authentication Code (MAC).md",
-    "Blockchain/Consensus.md",
     "Blockchain/Cosmos Network.md",
     "Process Forking.md",
-    "Blockchain/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
     "Pasted image 20240627204148.png",
-    "Blockchain/Validator.md",
     "Blockchain",
     "AWS IAM User Creation.md",
     "Bytecode.md",
@@ -185,15 +192,9 @@
     "Screenshot_3.png",
     "Process vs Thread.md",
     "Program Counter.md",
-    "Public Key (Asymmetric) Cryptography.md",
-    "RSA Cryptography.md",
-    "Linker.md",
-    "Instruction Register.md",
     "images/Message_Authentication_Code_(MAC).png",
     "images/Gartner_Hype_Cycle.png",
     "images",
-    "Gartner_Hype_Cycle.svg.png",
-    "cat.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
