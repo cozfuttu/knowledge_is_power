@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elliptic Curve Cryptography (ECC).md",
+                "file": "Blockchain/projects/Avail.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e8c973925a46069",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blockchain/projects/Worldcoin.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elliptic Curve Cryptography (ECC).md",
+                "file": "Blockchain/projects/Worldcoin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elliptic Curve Cryptography (ECC).md",
+                "file": "Blockchain/projects/Worldcoin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elliptic Curve Cryptography (ECC).md"
+                "file": "Blockchain/projects/Worldcoin.md"
               }
             }
           }
@@ -155,43 +168,44 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "da95e9acf2d0dea7",
+  "active": "2e8c973925a46069",
   "lastOpenFiles": [
+    "Blockchain/projects/Avail.md",
+    "Blockchain/projects/Worldcoin.md",
+    "Blockchain/projects/Cosmos Network.md",
+    "Blockchain/projects/Celestia.md",
+    "Blockchain/projects/1inch.md",
+    "Blockchain/Data Availability (DA).md",
+    "Blockchain/projects/Uniswap.md",
+    "Public Key (Asymmetric) Cryptography.md",
+    "Elliptic Curve Cryptography (ECC).md",
+    "Cryptography.md",
+    "Blockchain/Decentralized Exchange (DEX).md",
+    "Blockchain/projects/WooFi.md",
+    "Blockchain/projects/Pyth.md",
+    "Blockchain/projects/Redstone.md",
+    "Blockchain/projects/Chainlink.md",
+    "Blockchain/projects/LayerZero.md",
+    "Blockchain/projects/Wormhole.md",
+    "Blockchain/IBC.md",
+    "Blockchain/projects",
     "Distributed Computing.md",
     "Blockchain/Mempool.md",
     "Blockchain/Solidity.md",
-    "Blockchain/IBC.md",
     "Blockchain/Double Spending Problem.md",
     "Blockchain/Byzantine Generals Problem.md",
     "Blockchain/Consensus.md",
     "Blockchain/Account Abstraction (EIP-4337).md",
     "Blockchain/Validator.md",
-    "Blockchain/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
-    "Blockchain/Solidity Learning Sources.md",
-    "Blockchain/Blockchain.md",
     "Pasted image 20240815162439.png",
     "Pasted image 20240815162320.png",
     "Pasted image 20240815162141.png",
-    "Cryptography.md",
     "Pasted image 20240721205201.png",
     "gif1.gif",
     "Pasted image 20240721204815.png",
-    "Blockchain/DeFi.md",
-    "Message Authentication Code (MAC).md",
-    "Blockchain/Cosmos Network.md",
-    "Process Forking.md",
     "Pasted image 20240627204148.png",
     "Blockchain",
-    "AWS IAM User Creation.md",
-    "Bytecode.md",
-    "Job Advertisement.md",
-    "Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
-    "Computer Architecture.md",
-    "Elliptic Curve Cryptography (ECC).md",
-    "Fetch-Execute Cycle.md",
     "Screenshot_3.png",
-    "Process vs Thread.md",
-    "Program Counter.md",
     "images/Message_Authentication_Code_(MAC).png",
     "images/Gartner_Hype_Cycle.png",
     "images",
