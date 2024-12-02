@@ -1,1 +1,2 @@
-Oracles
+[[Oracles]]
+https://www.pyth.network/

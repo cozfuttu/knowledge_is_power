@@ -1,3 +1,2 @@
-https://worldcoin.org/
-
 Identity Confirmation
+https://worldcoin.org/

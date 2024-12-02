@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "61af1b0ff4a0d13a",
+        "id": "d9be0ab9e27822b4",
         "type": "tabs",
         "children": [
           {
-            "id": "da95e9acf2d0dea7",
+            "id": "b70c9277ade33406",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain/projects/Avail.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e8c973925a46069",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/projects/Worldcoin.md",
+                "file": "Blockchain/projects/Particle Network.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain/projects/Worldcoin.md",
+                "file": "Blockchain/projects/Particle Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain/projects/Worldcoin.md",
+                "file": "Blockchain/projects/Particle Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain/projects/Worldcoin.md"
+                "file": "Blockchain/projects/Particle Network.md"
               }
             }
           }
@@ -168,35 +155,38 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "2e8c973925a46069",
+  "active": "b70c9277ade33406",
   "lastOpenFiles": [
-    "Blockchain/projects/Avail.md",
-    "Blockchain/projects/Worldcoin.md",
-    "Blockchain/projects/Cosmos Network.md",
-    "Blockchain/projects/Celestia.md",
-    "Blockchain/projects/1inch.md",
-    "Blockchain/Data Availability (DA).md",
-    "Blockchain/projects/Uniswap.md",
-    "Public Key (Asymmetric) Cryptography.md",
-    "Elliptic Curve Cryptography (ECC).md",
-    "Cryptography.md",
-    "Blockchain/Decentralized Exchange (DEX).md",
     "Blockchain/projects/WooFi.md",
-    "Blockchain/projects/Pyth.md",
-    "Blockchain/projects/Redstone.md",
-    "Blockchain/projects/Chainlink.md",
-    "Blockchain/projects/LayerZero.md",
-    "Blockchain/projects/Wormhole.md",
-    "Blockchain/IBC.md",
-    "Blockchain/projects",
-    "Distributed Computing.md",
-    "Blockchain/Mempool.md",
-    "Blockchain/Solidity.md",
-    "Blockchain/Double Spending Problem.md",
-    "Blockchain/Byzantine Generals Problem.md",
-    "Blockchain/Consensus.md",
-    "Blockchain/Account Abstraction (EIP-4337).md",
     "Blockchain/Validator.md",
+    "Blockchain/projects/Zama.md",
+    "Blockchain/projects/Inco.md",
+    "Blockchain/projects/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
+    "AI/Artificial Intelligence (AI).md",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "AI",
+    "Fully Homomorphic Encryption (FHE).md",
+    "Hash Function.md",
+    "Blockchain/projects/Babylon.md",
+    "Blockchain/projects/Particle Network.md",
+    "Blockchain/projects/EigenLayer.md",
+    "Blockchain/eip/EIP-1967 (Upgradeable Proxy).md",
+    "Blockchain/eip/EIP-2612 (Permit Extension for EIP-20).md",
+    "Blockchain/eip/EIP-712 (Structured Data Sign).md",
+    "Blockchain/eip/EIP-1155 (Multi Token).md",
+    "Blockchain/eip/EIP-3675 (PoS Consensus Upgrade).md",
+    "Blockchain/eip/EIP-20 (Token).md",
+    "Blockchain/eip/EIP-721 (NFT).md",
+    "Blockchain/eip/EIP-1271 (Signature Validation).md",
+    "Blockchain/eip/EIP-7683 (Cross-chain Intents).md",
+    "Blockchain/eip/EIP-1193 (Provider API).md",
+    "Blockchain/projects/Biconomy.md",
+    "Blockchain/eip/EIP-4337 (Account Abstraction).md",
+    "Blockchain/eip",
+    "images/particle_network_video.mp4",
+    "Blockchain/projects",
     "Pasted image 20240815162439.png",
     "Pasted image 20240815162320.png",
     "Pasted image 20240815162141.png",

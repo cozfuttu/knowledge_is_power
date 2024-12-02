@@ -1,1 +1,2 @@
-Cross-chain Messaging
+[[Cross-chain Messaging]]
+https://layerzero.network/
