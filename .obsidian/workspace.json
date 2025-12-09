@@ -140,15 +140,15 @@
             }
           },
           {
-            "id": "92ed46f2a6de77e7",
+            "id": "c824946800dd1225",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.9.14"
+                "currentVersion": "1.10.6"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "title": "Release Notes 1.10.6"
             }
           }
         ],
@@ -306,17 +306,25 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "92ed46f2a6de77e7",
+  "active": "c824946800dd1225",
   "lastOpenFiles": [
-    "Linux/Which Port Should I Use.md",
-    "Linux/New Server Setup Guide.md",
-    "mc-gregtech/IC2 Crop Command.md",
-    "Linux",
     "images/Screenshot_2024-12-12-17-13-35-993_com.linkedin.android.jpg",
     "images/Screenshot_3.png",
     "images/pointer_explanation.png",
-    "Untitled.md",
     "images/Gartner_Hype_Cycle.png",
+    "images/Message_Authentication_Code_(MAC).png",
+    "images/particle_network_video.mp4",
+    "images/Pasted image 20240627204148.png",
+    "images/Pasted image 20240721204815.png",
+    "images/Pasted image 20240721205201.png",
+    "images/Pasted image 20240815162141.png",
+    "images/Pasted image 20240815162320.png",
+    "images/Pasted image 20240815162439.png",
+    "Linux/New Server Setup Guide.md",
+    "Linux/Which Port Should I Use.md",
+    "mc-gregtech/IC2 Crop Command.md",
+    "Linux",
+    "Untitled.md",
     "mc-gregtech",
     "Blockchain/eip/ERC6909.pdf",
     "Blockchain/eip/EIP-1155 (Multi Token).md",
@@ -328,13 +336,7 @@
     "Linux Commands.md",
     "Linker.md",
     "Linux File System Architecture.md",
-    "Screenshot_2024-12-12-17-13-35-993_com.linkedin.android.jpg",
     "File System (FS).md",
-    "images/Pasted image 20240815162439.png",
-    "images/Pasted image 20240815162320.png",
-    "images/Pasted image 20240815162141.png",
-    "images/Pasted image 20240721205201.png",
-    "images/Pasted image 20240721204815.png",
     "Zero-Knowledge Proof (ZKP).md",
     "Blockchain/projects/zkSync.md",
     "Blockchain/projects/Scroll.md",
@@ -346,10 +348,8 @@
     "Blockchain/projects/Arbitrum.md",
     "Blockchain/Rollup.md",
     "Blockchain/Gas.md",
-    "Blockchain/Ethereum Virtual Machine (EVM).md",
     "AI",
     "Blockchain/eip",
-    "images/particle_network_video.mp4",
     "Blockchain/projects",
     "Blockchain",
     "images",

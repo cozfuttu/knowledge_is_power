@@ -30,7 +30,7 @@ Recommended changes:
 
 ```
 Port 22              # (Optional) change to a non-default like 2222
-PermitRootLogin no
+PermitRootLogin yes  # you might want no
 PasswordAuthentication no
 PubkeyAuthentication yes
 # Limit who can SSH in (optional, but good)
@@ -88,7 +88,7 @@ node -v && npm -v # v22.21.0
 ###### Installation
 
 ```sh
-sudo npm i -g pm2
+npm i -g pm2
 pm2 startup systemd
 # Follow the printed command, then:
 pm2 save
@@ -144,10 +144,17 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo systemctl status docker
 ```
 
+###### Add user to docker group
+
+```sh
+sudo usermod -a -G docker $USER
+logout
+```
+
 ###### Verify Installation
 
 ```sh
-sudo docker run hello-world
+docker run hello-world
 ```
 
 
@@ -202,7 +209,15 @@ cat backup.sql | docker exec -i postgres psql -U postgres
 docker run -i -t -p 6379:6379 redis redis-server --save 60 1 --requirepass "password"
 ```
 
+⚠️ **Important Note**: If you have a docker app which uses redis, you need to connect it using:
+`redis://<docker_bridge_network_ipaddr>:6379`
 
+to get the `<docker_bridge_network_ipaddr>`, run the following command:
+
+```
+docker inspect redis | grep -A 20 "Networks"
+```
+and get the `IPAddress` value.
 ## Nginx
 
 #### Installation
