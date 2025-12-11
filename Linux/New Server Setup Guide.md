@@ -163,7 +163,7 @@ docker run hello-world
 ###### Install PostgreSQL tools (psql command)
 
 ```sh
-sudo apt install postgresql-client
+sudo apt -y install postgresql-client
 ```
 
 ###### Run PostgreSQL
@@ -189,16 +189,29 @@ docker exec -t postgres pg_dump -U postgres -F c <db_name> > backup.sql
 docker exec -t postgres pg_dumpall -U postgres > backup.sql
 ```
 
-###### Restore Database
+###### Restore Database (if used pg_dump, NOT pg_dumpall)
 
 ```sh
 docker exec -i postgres pg_restore -U postgres < backup.sql
+```
+
+###### Restore Database (if used pg_dumpall, NOT pg_dump)
+
+```sh
+docker exec -i postgres psql -U postgres < backup.sql
 ```
 
 If doesn't work:
 
 ```sh
 cat backup.sql | docker exec -i postgres psql -U postgres
+```
+
+!Note: when you restore databases, your postgres user password might also change, to update it, run:
+
+```sh
+docker exec -it postgres psql -U postgres
+ALTER USER postgres WITH PASSWORD 'newpassword';
 ```
 
 #### Redis
@@ -267,7 +280,7 @@ sudo certbot renew --dry-run
 ###### Install Chromium
 
 ```sh
-sudo apt install chromium
+sudo apt -y install chromium
 ```
 
 ###### Install Chromium Dependencies For Linux
@@ -275,5 +288,13 @@ sudo apt install chromium
 Reference: https://pptr.dev/troubleshooting#chrome-doesnt-launch-on-linux
 
 ```sh
-sudo apt install ca-certificates fonts-liberation libasound2t64 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils
+sudo apt -y install ca-certificates fonts-liberation libasound2t64 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils
+```
+
+#### Fish (Shell)
+
+###### Install Fish
+
+```sh
+sudo apt -y install fish
 ```
