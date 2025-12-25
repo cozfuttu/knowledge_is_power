@@ -73,7 +73,7 @@ export function UserCard({ user, isActive = true }: UserCardProps) {
 7) useCallback
 8) useEffect
 
-## 10) Early Returns (Guard Clauses)
+## 6) Early Returns (Guard Clauses)
 
 ```ts
 if (!isActive) return null;
@@ -84,7 +84,7 @@ if (isLoading) {
 ```
 
 
-## 11) Render Functions
+## 7) Render Functions
 
 ```ts
 const renderFriends = () =>
@@ -94,4 +94,4 @@ const renderFriends = () =>
 ```
 
 
-## 12) JSX Return
+## 8) JSX Return
