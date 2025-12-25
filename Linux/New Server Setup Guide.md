@@ -216,14 +216,15 @@ ALTER USER postgres WITH PASSWORD 'newpassword';
 
 #### Redis
 
+⚠️ **Important Note**: If you have a docker app which uses redis, you need to connect it using:
+`redis://<docker_bridge_network_ipaddr>:6379`
+
+you need to create a docker network for this.
 ###### Running
 
 ```sh
-docker run -i -t -p 6379:6379 redis redis-server --save 60 1 --requirepass "password"
+docker run --name redis --network redis_network -i -t -p 6379:6379 redis redis-server --save 60 1 --requirepass "password"
 ```
-
-⚠️ **Important Note**: If you have a docker app which uses redis, you need to connect it using:
-`redis://<docker_bridge_network_ipaddr>:6379`
 
 to get the `<docker_bridge_network_ipaddr>`, run the following command:
 
@@ -231,6 +232,7 @@ to get the `<docker_bridge_network_ipaddr>`, run the following command:
 docker inspect redis | grep -A 20 "Networks"
 ```
 and get the `IPAddress` value.
+
 ## Nginx
 
 #### Installation
