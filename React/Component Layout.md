@@ -62,20 +62,16 @@ export function UserCard({ user, isActive = true }: UserCardProps) {
 ```
 
 
-## 5) States (useState)
+## 5) Hooks
 
-
-## 6) Refs (useRef)
-
-
-## 7) Memos (useMemo)
-
-
-## 8) Callbacks / Handlers (useCallback)
-
-
-## 9) Effects (useEffect)
-
+1) Context hooks (useContext)
+2) State hooks (useState)
+3) Ref hooks (useRef)
+4) External Library hooks (useRouter, useForm, useQuery etc.)
+5) Custom hooks
+6) useMemo
+7) useCallback
+8) useEffect
 
 ## 10) Early Returns (Guard Clauses)
 
