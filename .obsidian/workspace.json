@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Component Layout.md",
+                "file": "React/Other Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Component Layout"
+              "title": "Other Notes"
             }
           },
           {
@@ -323,8 +323,9 @@
   },
   "active": "b70c9277ade33406",
   "lastOpenFiles": [
-    "Blockchain/projects/Particle Network.md",
     "React/Component Layout.md",
+    "React/Other Notes.md",
+    "Blockchain/projects/Particle Network.md",
     "Investing/Before Investing, Check.md",
     "React",
     "Investing/Entreprenurship.md",
@@ -364,7 +365,6 @@
     "Blockchain/projects/Mina.md",
     "Blockchain/projects/Hyperlane.md",
     "Blockchain/projects/Axelar.md",
-    "Blockchain/projects/Arbitrum.md",
     "AI",
     "Blockchain/eip",
     "Blockchain/projects",

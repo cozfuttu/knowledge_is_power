@@ -1,11 +1,20 @@
 ## 1) Imports
 
-1) React
+1) React & Nextjs
 2) external libraries
-3) UI components
-4) hooks
+3) hooks (context hooks, custom hooks)
+4) UI components
 5) utils/helpers
-6) styles
+6) constants
+7) types
+8) styles
+
+* When importing types, please import using the `type` keyword when necessary
+* Example:
+	```ts
+	import {Role, type User} from "@/types" // Role is an enum, User is a type
+	import type {Friend, } from "@/types"
+	```
 
 #### Example
 
@@ -58,7 +67,7 @@ const MIN_USERNAME_LENGTH = 3;
 ## 4) Function Component Declaration
 
 ```ts
-export function UserCard({ user, isActive = true }: UserCardProps) {
+export default function UserCard({ user, isActive = true }: UserCardProps) {
 ```
 
 
