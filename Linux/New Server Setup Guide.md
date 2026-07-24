@@ -34,7 +34,7 @@ PermitRootLogin yes  # you might want no
 PasswordAuthentication no
 PubkeyAuthentication yes
 # Limit who can SSH in (optional, but good)
-AllowUsers can
+AllowUsers can ahmet mehmet
 ```
 
 Apply changes and allow the port in firewall if you change it:
@@ -169,7 +169,7 @@ sudo apt -y install postgresql-client
 ###### Run PostgreSQL
 
 ```sh
-docker run --name postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
+docker run --name postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d pgvector/pgvector:pg18-trixie
 ```
 
 ###### Make PostgreSQL Start Automatically After a Reboot
