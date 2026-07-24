@@ -4,167 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d9be0ab9e27822b4",
+        "id": "2cd427179138f53a",
         "type": "tabs",
         "children": [
           {
-            "id": "b70c9277ade33406",
+            "id": "f0e6d2da9e39fde4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Other Notes.md",
+                "file": "Robotics/Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Other Notes"
-            }
-          },
-          {
-            "id": "bca278993f0f9f9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/projects/Sonne Lending Protocol (Compound Fork) Contract Deploy Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sonne Lending Protocol (Compound Fork) Contract Deploy Guide"
-            }
-          },
-          {
-            "id": "8a8bd9330cf03e70",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
-            "id": "740e4b78b72a983d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kernel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kernel"
-            }
-          },
-          {
-            "id": "0999ba1032eedf3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linker"
-            }
-          },
-          {
-            "id": "8326ef72fcdabee9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/Yao's Millionaires' problem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Yao's Millionaires' problem"
-            }
-          },
-          {
-            "id": "434f1af6ceec60d0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
-            }
-          },
-          {
-            "id": "308b1a855365c7c4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Gartner_Hype_Cycle.png"
-              },
-              "icon": "lucide-image",
-              "title": "Gartner_Hype_Cycle"
-            }
-          },
-          {
-            "id": "6b38ff4c9ea7a99e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/pointer_explanation.png"
-              },
-              "icon": "lucide-image",
-              "title": "pointer_explanation"
-            }
-          },
-          {
-            "id": "3620f97a230ae5e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/New Server Setup Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "New Server Setup Guide"
-            }
-          },
-          {
-            "id": "c824946800dd1225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investing/Entreprenurship.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Entreprenurship"
-            }
-          },
-          {
-            "id": "6f40f4ad30f0c7c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Component Layout.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Component Layout"
+              "title": "Links"
             }
           }
         ]
@@ -186,8 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -216,8 +69,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "starred"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -250,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Commands.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linux Commands"
+              "title": "Backlinks for Docker"
             }
           },
           {
@@ -269,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Commands.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linux Commands"
+              "title": "Outgoing links from Docker"
             }
           },
           {
@@ -296,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Commands.md"
+                "file": "Docker.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux Commands"
+              "title": "Outline of Docker"
             }
           }
         ]
@@ -311,64 +164,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "b70c9277ade33406",
+  "active": "f0e6d2da9e39fde4",
   "lastOpenFiles": [
-    "React/Component Layout.md",
-    "React/Other Notes.md",
-    "Blockchain/projects/Particle Network.md",
-    "Investing/Before Investing, Check.md",
-    "React",
-    "Investing/Entreprenurship.md",
-    "Linux/New Server Setup Guide.md",
-    "Investing",
-    "images/Screenshot_2024-12-12-17-13-35-993_com.linkedin.android.jpg",
-    "images/Screenshot_3.png",
-    "images/pointer_explanation.png",
-    "images/Gartner_Hype_Cycle.png",
-    "images/Message_Authentication_Code_(MAC).png",
-    "images/particle_network_video.mp4",
-    "images/Pasted image 20240627204148.png",
-    "images/Pasted image 20240721204815.png",
-    "images/Pasted image 20240721205201.png",
-    "images/Pasted image 20240815162141.png",
-    "images/Pasted image 20240815162320.png",
-    "Linux/Which Port Should I Use.md",
+    "Docker.md",
+    "Robotics/Links.md",
+    "Robotics",
     "mc-gregtech/IC2 Crop Command.md",
-    "Linux",
     "mc-gregtech",
+    "images/pointer_explanation.png",
+    "React/Other Notes.md",
+    "React/Component Layout.md",
+    "React",
+    "Linux/Which Port Should I Use.md",
+    "Linux/New Server Setup Guide.md",
+    "Linux",
+    "Investing/Resources.md",
+    "Investing/Entreprenurship.md",
+    "Investing/Before Investing, Check.md",
+    "Investing",
     "Blockchain/eip/ERC6909.pdf",
-    "Blockchain/eip/EIP-1155 (Multi Token).md",
-    "Blockchain/Yao's Millionaires' problem.md",
     "Blockchain/eip/EIP-2771 (Meta Transactions).md",
-    "Blockchain/eip/EIP-2612 (Permit Extension for EIP-20).md",
-    "Blockchain/eip/EIP-1271 (Signature Validation).md",
-    "Blockchain/eip/EIP-712 (Structured Data Sign).md",
-    "Linux Commands.md",
-    "Linker.md",
+    "Blockchain/Yao's Millionaires' problem.md",
+    "images/Screenshot_2024-12-12-17-13-35-993_com.linkedin.android.jpg",
+    "images/Pasted image 20241202055606.png",
+    "Operating System (OS).md",
     "Linux File System Architecture.md",
+    "Linux Commands.md",
     "File System (FS).md",
-    "Zero-Knowledge Proof (ZKP).md",
-    "Blockchain/projects/zkSync.md",
-    "Blockchain/projects/Scroll.md",
-    "Blockchain/projects/Polygon.md",
+    "Central Processing Unit (CPU).md",
+    "Blockchain/eip/EIP-1967 (Upgradeable Proxy).md",
+    "Blockchain/eip/EIP-1271 (Signature Validation).md",
+    "Blockchain/eip/EIP-1193 (Provider API).md",
+    "Blockchain/eip/EIP-1155 (Multi Token).md",
+    "Blockchain/eip/EIP-721 (NFT).md",
+    "Blockchain/eip/EIP-712 (Structured Data Sign).md",
+    "Blockchain/eip/EIP-20 (Token).md",
+    "Blockchain/projects/Arbitrum.md",
     "Blockchain/projects/Optimism.md",
-    "Blockchain/projects/Mina.md",
-    "Blockchain/projects/Hyperlane.md",
-    "Blockchain/projects/Axelar.md",
+    "images/Screenshot_3.png",
+    "images/Pasted image 20240815162141.png",
+    "images/Pasted image 20240721205201.png",
+    "images/Pasted image 20240721204815.png",
+    "images/Pasted image 20240627204148.png",
     "AI",
     "Blockchain/eip",
+    "images/particle_network_video.mp4",
     "Blockchain/projects",
-    "Blockchain",
+    "images/Pasted image 20240815162439.png",
+    "images/Pasted image 20240815162320.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
