@@ -270,7 +270,10 @@ EOF
 
 sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
+# domain by domain
 sudo certbot --nginx -d example.com -d www.example.com
+# or, if you have subdomains, better approach
+sudo certbot certonly --nginx --cert-name example.com -d a.example.com -d b.example.com -d c.example.com
 # Auto-renew test:
 sudo certbot renew --dry-run
 ```
@@ -299,4 +302,46 @@ sudo apt -y install ca-certificates fonts-liberation libasound2t64 libatk-bridge
 
 ```sh
 sudo apt -y install fish
+```
+
+
+#### Apache
+
+###### Install Apache
+
+```bash
+sudo apt install apache2-utils
+```
+
+
+#### Claude
+
+###### Install Claude
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+then follow the setup guide.
+
+
+#### Rust & Cargo
+
+###### Installation
+```bash
+curl https://sh.rustup.rs -sSf | sh
+```
+
+
+#### Github CLI (gh)
+
+###### Installation
+```bash
+(type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
+	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+	&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+	&& sudo mkdir -p -m 755 /etc/apt/sources.list.d \
+	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+	&& sudo apt update \
+	&& sudo apt install gh -y
 ```
